@@ -2,9 +2,6 @@
 
 Animated GIF/MP4 wallpapers with auto-switch + keybind switching
 
-caelestia-shell : github.com/caelestia-dots/shell
-mpvpaper: github.com/GhostNaN/mpvpaper
-
 ---
 
 ## Features
@@ -145,3 +142,8 @@ If it doesn’t start, relog.
 - Uses mpvpaper
 - MONITOR="*" works on most setups
 - Disable Caelestia wallpaper to avoid conflicts
+
+## Credits
+
+caelestia-shell : github.com/caelestia-dots/shell
+mpvpaper: github.com/GhostNaN/mpvpaper
