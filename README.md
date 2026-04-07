@@ -1,6 +1,9 @@
 # Hyprland Animated Wallpapers (mpvpaper)
 
-Animated GIF/MP4 wallpapers with auto-switch + keybind switching.
+Animated GIF/MP4 wallpapers with auto-switch + keybind switching
+
+caelestia-shell : github.com/caelestia-dots/shell
+mpvpaper: github.com/GhostNaN/mpvpaper
 
 ---
 
