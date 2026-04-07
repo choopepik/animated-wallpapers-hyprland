@@ -145,5 +145,5 @@ If it doesn’t start, relog.
 
 ## Credits
 
-- сaelestia ыhell: github.com/caelestia-dots/shell
+- caelestia shell: github.com/caelestia-dots/shell
 - mpvpaper: github.com/GhostNaN/mpvpaper
