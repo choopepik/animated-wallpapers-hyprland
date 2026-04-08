@@ -56,7 +56,10 @@ INTERVAL=120
 
 while true; do
     FILE=$(find "$WALLDIR" -type f \( -iname "*.gif" -o -iname "*.mp4" \) | shuf -n 1)
-    pkill mpvpaper
+        if pgrep -x mpvpaper >/dev/null; then
+        pkill -9 mpvpaper
+        sleep 0.5
+    fi
     mpvpaper -o "loop --no-audio" "$MONITOR" "$FILE" &
     sleep "$INTERVAL"
 done
@@ -101,7 +104,11 @@ FILE="${FILES[$INDEX]}"
 INDEX=$(( (INDEX + 1) % COUNT ))
 echo $INDEX > "$STATE_FILE"
 
-pkill mpvpaper
+if pgrep -x mpvpaper >/dev/null; then
+    pkill -9 mpvpaper
+    sleep 0.5
+fi
+
 mpvpaper -o "loop --no-audio" "$MONITOR" "$FILE" &
 ```
 
