@@ -141,29 +141,6 @@ hyprctl reload
 
 If it doesn’t start, relog.
 
-[!NOTE]
-
-If you notice that your wallpapers are duplicating themselves and eating your CPU, make sure to set the correct monitor name in the script instead of using `"*"`.
- 
-You can check your monitor name with:
- 
-```bash
-hyprctl monitors
-```
- 
-Then in random and next walppaper scripts replace:
- 
-```bash
-MONITOR="*"
-```
-with something like:
- 
-```bash
-MONITOR="eDP-2"
-```
- 
-This helps prevent multiple `mpvpaper` instances from spawning and reduces unnecessary CPU usage.
-
 ---
 
 ## Notes
